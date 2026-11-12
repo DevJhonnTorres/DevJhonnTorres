@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-label="Commit chain: latest commits by DevJhonnTorres as blocks">
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .bg { fill: #0d1117; }
+  .grid { stroke: #161b22; stroke-width: 1; }
+  .title { fill: #e6edf3; font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+  .sub { fill: #8b949e; font-size: 11px; }
+  .card { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
+  .h { fill: #58a6ff; font-size: 13px; font-weight: 700; }
+  .k { fill: #8b949e; font-size: 10.5px; }
+  .v { fill: #c9d1d9; font-size: 10.5px; }
+  .hash { fill: #3fb950; }
+  .msg { fill: #e6edf3; font-size: 11.5px; }
+  .chip { font-size: 10.5px; font-weight: 600; }
+  .sep { stroke: #30363d; stroke-dasharray: 3 3; }
+  .stat { fill: #e6edf3; font-size: 12px; }
+  .stat tspan.n { fill: #3fb950; font-weight: 700; }
+  .link { stroke: #3fb950; stroke-opacity: .45; stroke-width: 2; stroke-dasharray: 4 3; animation: flow 1s linear infinite; }
+  .pulse { fill: #3fb950; animation: travel 1.8s ease-in-out infinite; opacity: 0; }
+
+  .blk { animation: rise .7s ease-out both; }
+  .type { fill: #161b22; transform-box: fill-box; transform-origin: right; transform: scaleX(0); animation: type 1.2s steps(14) both; }
+
+  .mining { stroke: #d29922; stroke-dasharray: 8 5; animation: march 1s linear infinite, mineBorder 6s ease-in-out infinite; }
+  .found { fill: none; stroke: #3fb950; stroke-width: 2; opacity: 0; animation: glow 6s ease-in-out infinite; }
+  .mine { animation: mineShow 6s ease-in-out infinite; }
+  .ok { opacity: 0; animation: glow 6s ease-in-out infinite; }
+  .okt { fill: #3fb950; font-size: 13px; font-weight: 700; }
+  .pick { fill: #d29922; }
+  .nonce { opacity: 0; animation: flick 1.2s steps(1) infinite both; }
+  .barbg { fill: #21262d; }
+  .bar { fill: #d29922; transform-box: fill-box; transform-origin: left; animation: progress 6s ease-in-out infinite; }
+
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes type { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+  @keyframes flow { to { stroke-dashoffset: -14; } }
+  @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(34px); opacity: 0; } }
+  @keyframes march { to { stroke-dashoffset: -26; } }
+  @keyframes flick { 0% { opacity: 1; } 12.5% { opacity: 0; } 100% { opacity: 0; } }
+  @keyframes progress { 0% { transform: scaleX(0); } 78% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+  @keyframes mineShow { 0%, 78% { opacity: 1; } 82%, 96% { opacity: 0; } 100% { opacity: 1; } }
+  @keyframes glow { 0%, 78% { opacity: 0; } 82%, 94% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes mineBorder { 0%, 78% { stroke-opacity: 1; } 82%, 96% { stroke-opacity: 0; } 100% { stroke-opacity: 1; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .blk, .type, .link, .pulse, .mining, .nonce, .bar, .mine, .ok, .found { animation: none !important; }
+    .blk { opacity: 1; } .type { display: none; } .n0 { opacity: 1; }
+  }
+</style>
+<rect class="bg" width="960" height="330" rx="12"/>
+<line class="grid" x1="0" x2="0" y1="0" y2="330"/><line class="grid" x1="44" x2="44" y1="0" y2="330"/><line class="grid" x1="88" x2="88" y1="0" y2="330"/><line class="grid" x1="132" x2="132" y1="0" y2="330"/><line class="grid" x1="176" x2="176" y1="0" y2="330"/><line class="grid" x1="220" x2="220" y1="0" y2="330"/><line class="grid" x1="264" x2="264" y1="0" y2="330"/><line class="grid" x1="308" x2="308" y1="0" y2="330"/><line class="grid" x1="352" x2="352" y1="0" y2="330"/><line class="grid" x1="396" x2="396" y1="0" y2="330"/><line class="grid" x1="440" x2="440" y1="0" y2="330"/><line class="grid" x1="484" x2="484" y1="0" y2="330"/><line class="grid" x1="528" x2="528" y1="0" y2="330"/><line class="grid" x1="572" x2="572" y1="0" y2="330"/><line class="grid" x1="616" x2="616" y1="0" y2="330"/><line class="grid" x1="660" x2="660" y1="0" y2="330"/><line class="grid" x1="704" x2="704" y1="0" y2="330"/><line class="grid" x1="748" x2="748" y1="0" y2="330"/><line class="grid" x1="792" x2="792" y1="0" y2="330"/><line class="grid" x1="836" x2="836" y1="0" y2="330"/><line class="grid" x1="880" x2="880" y1="0" y2="330"/><line class="grid" x1="924" x2="924" y1="0" y2="330"/><line class="grid" x1="968" x2="968" y1="0" y2="330"/>
+<text x="16" y="34" class="title">⛓ COMMIT CHAIN</text>
+<text x="944" y="34" class="sub" text-anchor="end">network: github · validator: @DevJhonnTorres · consensus: proof-of-code</text>
+
+  <g transform="translate(172 158)">
+    <line x1="0" x2="34" y1="0" y2="0" class="link"/>
+    <circle r="3" class="pulse" style="animation-delay:0.0s"/>
+  </g>
+  <g transform="translate(366 158)">
+    <line x1="0" x2="34" y1="0" y2="0" class="link"/>
+    <circle r="3" class="pulse" style="animation-delay:0.3s"/>
+  </g>
+  <g transform="translate(560 158)">
+    <line x1="0" x2="34" y1="0" y2="0" class="link"/>
+    <circle r="3" class="pulse" style="animation-delay:0.6s"/>
+  </g>
+  <g transform="translate(754 158)">
+    <line x1="0" x2="34" y1="0" y2="0" class="link"/>
+    <circle r="3" class="pulse" style="animation-delay:0.9s"/>
+  </g>
+  <g transform="translate(12 66)"><g class="blk" style="animation-delay:0.00s">
+    <rect class="card" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #94</text>
+    <text x="12" y="46" class="k">hash</text>
+    <text x="46" y="46" class="v hash">0xeaaf31715d38</text>
+    <rect class="type" style="animation-delay:0.40s" x="45" y="35" width="110" height="14"/>
+    <text x="12" y="63" class="k">prev</text>
+    <text x="46" y="63" class="v">0x3c85618419dd</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
+    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
+    <text x="12" y="124" class="msg">Comprueba el saldo</text>
+    <text x="12" y="140" class="msg">del pagador antes de…</text>
+    <text x="12" y="164" class="k">⎇ EAG-hack</text>
+    <text x="12" y="178" class="k">◷ 2026-09-20</text>
+  </g></g>
+  <g transform="translate(206 66)"><g class="blk" style="animation-delay:0.35s">
+    <rect class="card" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #95</text>
+    <text x="12" y="46" class="k">hash</text>
+    <text x="46" y="46" class="v hash">0xa19c3e221223</text>
+    <rect class="type" style="animation-delay:0.75s" x="45" y="35" width="110" height="14"/>
+    <text x="12" y="63" class="k">prev</text>
+    <text x="46" y="63" class="v">0xeaaf31715d38</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
+    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
+    <text x="12" y="124" class="msg">Arregla el cambio de</text>
+    <text x="12" y="140" class="msg">cadena y despliega ……</text>
+    <text x="12" y="164" class="k">⎇ EAG-hack</text>
+    <text x="12" y="178" class="k">◷ 2026-09-20</text>
+  </g></g>
+  <g transform="translate(400 66)"><g class="blk" style="animation-delay:0.70s">
+    <rect class="card" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #96</text>
+    <text x="12" y="46" class="k">hash</text>
+    <text x="46" y="46" class="v hash">0xf839a80812a4</text>
+    <rect class="type" style="animation-delay:1.10s" x="45" y="35" width="110" height="14"/>
+    <text x="12" y="63" class="k">prev</text>
+    <text x="46" y="63" class="v">0xa19c3e221223</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
+    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
+    <text x="12" y="124" class="msg">Arregla el cambio de</text>
+    <text x="12" y="140" class="msg">red y lo cubre con…</text>
+    <text x="12" y="164" class="k">⎇ EAG-hack</text>
+    <text x="12" y="178" class="k">◷ 2026-09-20</text>
+  </g></g>
+  <g transform="translate(594 66)"><g class="blk" style="animation-delay:1.05s">
+    <rect class="card" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #97</text>
+    <text x="12" y="46" class="k">hash</text>
+    <text x="46" y="46" class="v hash">0x187a60a66647</text>
+    <rect class="type" style="animation-delay:1.45s" x="45" y="35" width="110" height="14"/>
+    <text x="12" y="63" class="k">prev</text>
+    <text x="46" y="63" class="v">0xf839a80812a4</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
+    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
+    <text x="12" y="124" class="msg">Pool nuevo firmado</text>
+    <text x="12" y="140" class="msg">por 0x8048 y ajuste…</text>
+    <text x="12" y="164" class="k">⎇ EAG-hack</text>
+    <text x="12" y="178" class="k">◷ 2026-09-20</text>
+  </g></g>
+  <g transform="translate(788 66)"><g class="blk" style="animation-delay:1.40s">
+    <rect class="card mining" width="160" height="184" rx="8"/>
+    <rect class="found" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #98</text>
+    <text x="12" y="46" class="k">prev</text>
+    <text x="46" y="46" class="v">0x187a60a66647</text>
+    <text x="12" y="63" class="k">diff</text>
+    <text x="46" y="63" class="v">0x0000ffff</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <g class="mine">
+      <text x="12" y="100" class="msg"><tspan class="pick">⛏</tspan> mining…</text>
+      <text x="12" y="122" class="k">nonce</text>
+      <text x="56" y="122" class="v nonce n0" style="animation-delay:0.00s">48213</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.15s">91027</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.30s">03355</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.45s">77410</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.60s">26981</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.75s">58802</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:0.90s">14466</text>
+      <text x="56" y="122" class="v nonce" style="animation-delay:1.05s">69134</text>
+      <rect x="12" y="136" width="136" height="8" rx="4" class="barbg"/>
+      <rect x="12" y="136" width="136" height="8" rx="4" class="bar"/>
+    </g>
+    <g class="ok">
+      <text x="80" y="112" class="okt" text-anchor="middle">✓ HASH FOUND</text>
+      <text x="80" y="132" class="k" text-anchor="middle">waiting for next commit</text>
+    </g>
+    <text x="12" y="178" class="k">◷ pending</text>
+  </g></g>
+<line x1="12" x2="948" y1="278" y2="278" class="sep"/>
+<text x="16" y="304" class="stat">blocks mined <tspan class="n">97</tspan>   ·   repos <tspan class="n">37</tspan>   ·   last block <tspan class="n">2026-09-20</tspan></text>
+<text x="944" y="304" class="sub" text-anchor="end">synced 2026-11-12 00:33 UTC</text>
+</svg>
