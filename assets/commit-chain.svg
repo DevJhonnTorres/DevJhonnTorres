@@ -70,25 +70,10 @@
   </g>
   <g transform="translate(12 66)"><g class="blk" style="animation-delay:0.00s">
     <rect class="card" width="160" height="184" rx="8"/>
-    <text x="12" y="24" class="h">BLOCK #102</text>
-    <text x="12" y="46" class="k">hash</text>
-    <text x="46" y="46" class="v hash">0x3c25cab18e8b</text>
-    <rect class="type" style="animation-delay:0.40s" x="45" y="35" width="110" height="14"/>
-    <text x="12" y="63" class="k">prev</text>
-    <text x="46" y="63" class="v">0xafeec4ba9114</text>
-    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
-    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
-    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
-    <text x="12" y="124" class="msg">Initial commit</text>
-    <text x="12" y="164" class="k">⎇ skills-getting-start…</text>
-    <text x="12" y="178" class="k">◷ 2026-11-20</text>
-  </g></g>
-  <g transform="translate(206 66)"><g class="blk" style="animation-delay:0.35s">
-    <rect class="card" width="160" height="184" rx="8"/>
     <text x="12" y="24" class="h">BLOCK #103</text>
     <text x="12" y="46" class="k">hash</text>
     <text x="46" y="46" class="v hash">0xbafd97c4e2bc</text>
-    <rect class="type" style="animation-delay:0.75s" x="45" y="35" width="110" height="14"/>
+    <rect class="type" style="animation-delay:0.40s" x="45" y="35" width="110" height="14"/>
     <text x="12" y="63" class="k">prev</text>
     <text x="46" y="63" class="v">0x3c25cab18e8b</text>
     <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
@@ -98,12 +83,12 @@
     <text x="12" y="164" class="k">⎇ skills-secure-reposi…</text>
     <text x="12" y="178" class="k">◷ 2026-11-20</text>
   </g></g>
-  <g transform="translate(400 66)"><g class="blk" style="animation-delay:0.70s">
+  <g transform="translate(206 66)"><g class="blk" style="animation-delay:0.35s">
     <rect class="card" width="160" height="184" rx="8"/>
     <text x="12" y="24" class="h">BLOCK #104</text>
     <text x="12" y="46" class="k">hash</text>
     <text x="46" y="46" class="v hash">0xbb7096d98772</text>
-    <rect class="type" style="animation-delay:1.10s" x="45" y="35" width="110" height="14"/>
+    <rect class="type" style="animation-delay:0.75s" x="45" y="35" width="110" height="14"/>
     <text x="12" y="63" class="k">prev</text>
     <text x="46" y="63" class="v">0xbafd97c4e2bc</text>
     <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
@@ -113,12 +98,12 @@
     <text x="12" y="164" class="k">⎇ skills-review-pull-r…</text>
     <text x="12" y="178" class="k">◷ 2026-11-20</text>
   </g></g>
-  <g transform="translate(594 66)"><g class="blk" style="animation-delay:1.05s">
+  <g transform="translate(400 66)"><g class="blk" style="animation-delay:0.70s">
     <rect class="card" width="160" height="184" rx="8"/>
     <text x="12" y="24" class="h">BLOCK #105</text>
     <text x="12" y="46" class="k">hash</text>
     <text x="46" y="46" class="v hash">0x19e8c6de9efb</text>
-    <rect class="type" style="animation-delay:1.45s" x="45" y="35" width="110" height="14"/>
+    <rect class="type" style="animation-delay:1.10s" x="45" y="35" width="110" height="14"/>
     <text x="12" y="63" class="k">prev</text>
     <text x="46" y="63" class="v">0xbb7096d98772</text>
     <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
@@ -128,12 +113,28 @@
     <text x="12" y="164" class="k">⎇ webshark</text>
     <text x="12" y="178" class="k">◷ 2026-11-22</text>
   </g></g>
+  <g transform="translate(594 66)"><g class="blk" style="animation-delay:1.05s">
+    <rect class="card" width="160" height="184" rx="8"/>
+    <text x="12" y="24" class="h">BLOCK #106</text>
+    <text x="12" y="46" class="k">hash</text>
+    <text x="46" y="46" class="v hash">0x63399dbdd1bf</text>
+    <rect class="type" style="animation-delay:1.45s" x="45" y="35" width="110" height="14"/>
+    <text x="12" y="63" class="k">prev</text>
+    <text x="46" y="63" class="v">0x19e8c6de9efb</text>
+    <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
+    <rect x="12" y="86" width="51.599999999999994" height="18" rx="9" fill="#8b949e" fill-opacity=".15" stroke="#8b949e" stroke-opacity=".6"/>
+    <text x="37.8" y="99" class="chip" fill="#8b949e" text-anchor="middle">commit</text>
+    <text x="12" y="124" class="msg">Merge pull request #1</text>
+    <text x="12" y="140" class="msg">from…</text>
+    <text x="12" y="164" class="k">⎇ zynexlabs</text>
+    <text x="12" y="178" class="k">◷ 2026-11-24</text>
+  </g></g>
   <g transform="translate(788 66)"><g class="blk" style="animation-delay:1.40s">
     <rect class="card mining" width="160" height="184" rx="8"/>
     <rect class="found" width="160" height="184" rx="8"/>
-    <text x="12" y="24" class="h">BLOCK #106</text>
+    <text x="12" y="24" class="h">BLOCK #107</text>
     <text x="12" y="46" class="k">prev</text>
-    <text x="46" y="46" class="v">0x19e8c6de9efb</text>
+    <text x="46" y="46" class="v">0x63399dbdd1bf</text>
     <text x="12" y="63" class="k">diff</text>
     <text x="46" y="63" class="v">0x0000ffff</text>
     <line x1="12" x2="148" y1="76" y2="76" class="sep"/>
@@ -158,6 +159,6 @@
     <text x="12" y="178" class="k">◷ pending</text>
   </g></g>
 <line x1="12" x2="948" y1="278" y2="278" class="sep"/>
-<text x="16" y="304" class="stat">blocks mined <tspan class="n">105</tspan>   ·   repos <tspan class="n">46</tspan>   ·   last block <tspan class="n">2026-11-22</tspan></text>
-<text x="944" y="304" class="sub" text-anchor="end">synced 2026-11-24 03:46 UTC</text>
+<text x="16" y="304" class="stat">blocks mined <tspan class="n">106</tspan>   ·   repos <tspan class="n">46</tspan>   ·   last block <tspan class="n">2026-11-24</tspan></text>
+<text x="944" y="304" class="sub" text-anchor="end">synced 2026-11-24 16:55 UTC</text>
 </svg>
